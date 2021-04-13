@@ -3,7 +3,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>About us</title>
+        <title>About us | Hello City</title>
     </head>
     <body>
         <p>Built with &hearts; by Bienfait GITA</p>
