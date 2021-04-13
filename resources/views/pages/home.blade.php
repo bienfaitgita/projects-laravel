@@ -1,13 +1,12 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('app')
 
-        <title>Hello City</title>
+@section('header')
 
-    </head>
-    <body >
+    <title>Hello City</title>
+
+@endsection
+
+@section('content')
 
        <h1> Hello from GOMA !</h1>
 
@@ -18,6 +17,5 @@
          <p>&copy; Copyright {{date('Y')}} &middot; <a href="/about">About us</a></p>
 
        </footer>
-
-    </body>
+@endsection
 </html>
