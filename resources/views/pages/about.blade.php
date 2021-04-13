@@ -2,9 +2,8 @@
 
 @section('header')
 
-    <title> about us | Hello City</title>
+@section('title','Hello City | About us')
 
-@endsection
 
 @section('content')
         <p>Built with &hearts; by Bienfait GITA</p>

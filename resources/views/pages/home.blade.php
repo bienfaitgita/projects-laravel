@@ -1,10 +1,8 @@
 @extends('app')
 
-@section('header')
+@section('title','Hello City')
 
-    <title>Hello City</title>
 
-@endsection
 
 @section('content')
 
