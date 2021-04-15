@@ -1,6 +1,6 @@
 @extends('app')
 
-@section('title','Hello City')
+@section('title')
 
 
 
@@ -9,6 +9,7 @@
        <h1> Hello from GOMA !</h1>
 
        <p>It's currently {{ date('h:i A') }}</p>
+
 
        <footer>
 

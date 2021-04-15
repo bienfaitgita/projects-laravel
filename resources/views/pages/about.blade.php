@@ -2,7 +2,7 @@
 
 @section('header')
 
-@section('title','Hello City | About us')
+@section('title','About us | '.config('app.name'))
 
 
 @section('content')
