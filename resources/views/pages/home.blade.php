@@ -11,10 +11,6 @@
        <p>It's currently {{ date('h:i A') }}</p>
 
 
-       <footer>
-
-         <p>&copy; Copyright {{date('Y')}} &middot; <a href="{{route('about')}}">About us</a></p>
-
-       </footer>
+       
 @endsection
 </html>
