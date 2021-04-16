@@ -13,7 +13,7 @@
 
        <footer>
 
-         <p>&copy; Copyright {{date('Y')}} &middot; <a href="/about">About us</a></p>
+         <p>&copy; Copyright {{date('Y')}} &middot; <a href="{{route('about')}}">About us</a></p>
 
        </footer>
 @endsection
