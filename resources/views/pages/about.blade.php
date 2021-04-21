@@ -7,7 +7,7 @@
 
 @section('content')
 
-        <img src="\images\ds_logo.png" alt="ds_logo">
+        <img src="{{asset('/images/ds_logo.png')}}" alt="ds_logo">
         <p>Built with &hearts; by Bienfait GITA</p>
         <p><a href="{{route('home')}}">Revenir à la page d'accueil</a></p>
 
